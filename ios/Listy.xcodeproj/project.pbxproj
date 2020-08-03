@@ -20,6 +20,15 @@
 		C5A2E9E15985BB9A5A338FCD /* libPods-Listy-ListyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F36FD6641BD6D81442298FE /* libPods-Listy-ListyTests.a */; };
 		D661D060C3F808F4D682CEBA /* libPods-Listy-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8010B05BCFEEF7B2DE0098FC /* libPods-Listy-tvOSTests.a */; };
 		D9D043758AFC733BDBB3991E /* libPods-Listy-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3286782267089D12A053B /* libPods-Listy-tvOS.a */; };
+		73DAAE41CFFF46A3A7BE435A /* Graphik-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = BAECB4C3C223406EBA5D8CAE /* Graphik-Black.otf */; };
+		4B30E88023504574A4BEB42D /* Graphik-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0C45EE272024FDA93D1120E /* Graphik-Bold.otf */; };
+		5D5EB889104846DC84955CF1 /* Graphik-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB394506AA64A3DABF80DE2 /* Graphik-Extralight.otf */; };
+		1D38257063274C28B7678B2E /* Graphik-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37057DEF15844D21864E55A4 /* Graphik-Light.otf */; };
+		71171D335DCF4A8D9AF4092A /* Graphik-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 524D514A5A804CF2AC29E51C /* Graphik-Medium.woff */; };
+		EF2061D323384FECA1F487A9 /* Graphik-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5195CE20B8EF4262BEBAC75B /* Graphik-Regular.woff */; };
+		92E780DDE60248FE803C26D8 /* Graphik-Semibold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 70D533623F044DD49040628E /* Graphik-Semibold.woff */; };
+		8F1AA6717D924FC6932D25C1 /* Graphik-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59015697E1141749166BE6E /* Graphik-Super.otf */; };
+		3D0F7554215E48E78A7D3FC7 /* Graphik-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B744823680941EA839A240F /* Graphik-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +76,15 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F3E913972B31574447799D3B /* Pods-Listy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listy.debug.xcconfig"; path = "Target Support Files/Pods-Listy/Pods-Listy.debug.xcconfig"; sourceTree = "<group>"; };
+		BAECB4C3C223406EBA5D8CAE /* Graphik-Black.otf */ = {isa = PBXFileReference; name = "Graphik-Black.otf"; path = "../assets/fonts/Graphik/Graphik-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0C45EE272024FDA93D1120E /* Graphik-Bold.otf */ = {isa = PBXFileReference; name = "Graphik-Bold.otf"; path = "../assets/fonts/Graphik/Graphik-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DB394506AA64A3DABF80DE2 /* Graphik-Extralight.otf */ = {isa = PBXFileReference; name = "Graphik-Extralight.otf"; path = "../assets/fonts/Graphik/Graphik-Extralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37057DEF15844D21864E55A4 /* Graphik-Light.otf */ = {isa = PBXFileReference; name = "Graphik-Light.otf"; path = "../assets/fonts/Graphik/Graphik-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		524D514A5A804CF2AC29E51C /* Graphik-Medium.woff */ = {isa = PBXFileReference; name = "Graphik-Medium.woff"; path = "../assets/fonts/Graphik/Graphik-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5195CE20B8EF4262BEBAC75B /* Graphik-Regular.woff */ = {isa = PBXFileReference; name = "Graphik-Regular.woff"; path = "../assets/fonts/Graphik/Graphik-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70D533623F044DD49040628E /* Graphik-Semibold.woff */ = {isa = PBXFileReference; name = "Graphik-Semibold.woff"; path = "../assets/fonts/Graphik/Graphik-Semibold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F59015697E1141749166BE6E /* Graphik-Super.otf */ = {isa = PBXFileReference; name = "Graphik-Super.otf"; path = "../assets/fonts/Graphik/Graphik-Super.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B744823680941EA839A240F /* Graphik-Thin.otf */ = {isa = PBXFileReference; name = "Graphik-Thin.otf"; path = "../assets/fonts/Graphik/Graphik-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +183,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				896751923113820FB4EA36BE /* Pods */,
+				13D7FDC77023473FB4E00B72 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +216,23 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		13D7FDC77023473FB4E00B72 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BAECB4C3C223406EBA5D8CAE /* Graphik-Black.otf */,
+				A0C45EE272024FDA93D1120E /* Graphik-Bold.otf */,
+				3DB394506AA64A3DABF80DE2 /* Graphik-Extralight.otf */,
+				37057DEF15844D21864E55A4 /* Graphik-Light.otf */,
+				524D514A5A804CF2AC29E51C /* Graphik-Medium.woff */,
+				5195CE20B8EF4262BEBAC75B /* Graphik-Regular.woff */,
+				70D533623F044DD49040628E /* Graphik-Semibold.woff */,
+				F59015697E1141749166BE6E /* Graphik-Super.otf */,
+				3B744823680941EA839A240F /* Graphik-Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +378,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				73DAAE41CFFF46A3A7BE435A /* Graphik-Black.otf in Resources */,
+				4B30E88023504574A4BEB42D /* Graphik-Bold.otf in Resources */,
+				5D5EB889104846DC84955CF1 /* Graphik-Extralight.otf in Resources */,
+				1D38257063274C28B7678B2E /* Graphik-Light.otf in Resources */,
+				71171D335DCF4A8D9AF4092A /* Graphik-Medium.woff in Resources */,
+				EF2061D323384FECA1F487A9 /* Graphik-Regular.woff in Resources */,
+				92E780DDE60248FE803C26D8 /* Graphik-Semibold.woff in Resources */,
+				8F1AA6717D924FC6932D25C1 /* Graphik-Super.otf in Resources */,
+				3D0F7554215E48E78A7D3FC7 /* Graphik-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
