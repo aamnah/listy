@@ -3,9 +3,9 @@ import React from 'react'
 import { ScrollView } from 'react-native'
 
 import List from 'components/common/List'
-import Tags from 'components/common/Tags'
 import Wrapper from 'components/common/Wrapper'
 import Lists from 'components/Lists'
+import Tags from 'components/Tags'
 import { sampleData } from 'sample-data.ts'
 
 export default function HomeScreen() {
@@ -13,7 +13,7 @@ export default function HomeScreen() {
     <ScrollView>
       <Wrapper>
         <Lists />
-        <Tags data={sampleData.tags} />
+        <Tags />
         <List data={sampleData} />
       </Wrapper>
     </ScrollView>
