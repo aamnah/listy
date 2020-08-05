@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 import styled from 'styled-components/native'
 
 import { Color, Dimension } from 'Theme'
@@ -8,14 +8,12 @@ import { Color, Dimension } from 'Theme'
 import * as Type from './Lists.types'
 import { useListsContext, ListsProvider } from './ListsContext'
 
-export function Lists(props: any) {
+export function Lists(props: any): JSX.Element {
   const data: Type.Lists = useListsContext()
-
-  // console.warn('list component', data)
 
   return (
     <ListsProvider>
-      <Fragment {...props}>
+      <View {...props}>
         <Header>
           <Text>Lists</Text>
         </Header>
@@ -27,7 +25,7 @@ export function Lists(props: any) {
             </Item>
           ))}
         </Body>
-      </Fragment>
+      </View>
     </ListsProvider>
   )
 }

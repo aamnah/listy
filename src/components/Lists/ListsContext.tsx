@@ -6,22 +6,21 @@ const ListsContext = createContext(sampleData.lists)
 ListsContext.displayName = 'ListsContext'
 
 // the hook to use our context and have reducer logic
-function useListsContext() {
+export function useListsContext() {
   const context = useContext(ListsContext)
-  if (!context) throw new Error('ListsContext must be used with ListsProvider')
+  if (!context)
+    throw new Error('ListsContext must be used within ListsProvider')
   return context
 }
 
 // the provider we'll export
-function ListsProvider(props: any) {
+export function ListsProvider(props: any) {
   const [data, setData] = useState(sampleData.lists)
 
   const value = { data, setData }
 
   return <ListsContext.Provider value={value} {...props} />
 }
-
-export { useListsContext, ListsProvider }
 
 /* 
 useContext
