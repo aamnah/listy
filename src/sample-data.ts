@@ -1,4 +1,4 @@
-export const data = {
+export const sampleData = {
   lists: [
     {
       id: 0,
@@ -48,42 +48,49 @@ export const data = {
       color: '#39ADD1',
       title: 'P',
       description: 'personal',
+      createdAt: '',
     },
     {
       id: 2,
       color: '#CF000F',
       title: 'L',
       description: 'learn',
+      createdAt: '',
     },
     {
       id: 3,
       color: '#F092B0',
       title: 'E',
       description: 'entertainment',
+      createdAt: '',
     },
     {
       id: 4,
       color: '#7D669E',
       title: 'F',
       description: 'friends & family',
+      createdAt: '',
     },
     {
       id: 5,
       color: '#51B46D',
       title: 'W',
       description: 'work',
+      createdAt: '',
     },
     {
       id: 6,
       color: '#39ADD1',
       title: 'S',
       description: 'social',
+      createdAt: '',
     },
     {
       id: 7,
       color: '#39ADD1',
       title: 'R',
       description: 'random',
+      createdAt: '',
     },
   ],
 }

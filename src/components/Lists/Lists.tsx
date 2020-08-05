@@ -1,30 +1,34 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import { Text } from 'react-native'
 import styled from 'styled-components/native'
 
 import { Color, Dimension } from 'Theme'
 
-interface Props {
-  data: any
-  style?: {}
-}
+import * as Type from './Lists.types'
+import { useListsContext, ListsProvider } from './ListsContext'
 
-export default function Lists({ data, style, ...rest }: Props) {
+export function Lists(props: any) {
+  const data: Type.Lists = useListsContext()
+
+  // console.warn('list component', data)
+
   return (
-    <>
-      <Header>
-        <Text>Lists</Text>
-      </Header>
-      <Body style={style} {...rest}>
-        {data.map((list) => (
-          <Item kye={list.id}>
-            <Title>{list.title}</Title>
-            <Description>3 items</Description>
-          </Item>
-        ))}
-      </Body>
-    </>
+    <ListsProvider>
+      <Fragment {...props}>
+        <Header>
+          <Text>Lists</Text>
+        </Header>
+        <Body>
+          {data.map((list: Type.List) => (
+            <Item key={list.id}>
+              <Title>{list.title}</Title>
+              <Description>3 items</Description>
+            </Item>
+          ))}
+        </Body>
+      </Fragment>
+    </ListsProvider>
   )
 }
 
