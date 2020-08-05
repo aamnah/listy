@@ -29,6 +29,9 @@
 		92E780DDE60248FE803C26D8 /* Graphik-Semibold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 70D533623F044DD49040628E /* Graphik-Semibold.woff */; };
 		8F1AA6717D924FC6932D25C1 /* Graphik-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59015697E1141749166BE6E /* Graphik-Super.otf */; };
 		3D0F7554215E48E78A7D3FC7 /* Graphik-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B744823680941EA839A240F /* Graphik-Thin.otf */; };
+		C0DA81424C834393B0B73A2A /* Graphik-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70F29626F0F542DB95FB9954 /* Graphik-Medium.otf */; };
+		02DEB148E4D142C1A9FADFC6 /* Graphik-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6FE225CDB74469AA7C41BCA /* Graphik-Regular.otf */; };
+		9E121F8DD43548A58DC56CED /* Graphik-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC0A6F2BFA44FC9987EDE9C /* Graphik-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		70D533623F044DD49040628E /* Graphik-Semibold.woff */ = {isa = PBXFileReference; name = "Graphik-Semibold.woff"; path = "../assets/fonts/Graphik/Graphik-Semibold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F59015697E1141749166BE6E /* Graphik-Super.otf */ = {isa = PBXFileReference; name = "Graphik-Super.otf"; path = "../assets/fonts/Graphik/Graphik-Super.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3B744823680941EA839A240F /* Graphik-Thin.otf */ = {isa = PBXFileReference; name = "Graphik-Thin.otf"; path = "../assets/fonts/Graphik/Graphik-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70F29626F0F542DB95FB9954 /* Graphik-Medium.otf */ = {isa = PBXFileReference; name = "Graphik-Medium.otf"; path = "../assets/fonts/Graphik/Graphik-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6FE225CDB74469AA7C41BCA /* Graphik-Regular.otf */ = {isa = PBXFileReference; name = "Graphik-Regular.otf"; path = "../assets/fonts/Graphik/Graphik-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DC0A6F2BFA44FC9987EDE9C /* Graphik-Semibold.otf */ = {isa = PBXFileReference; name = "Graphik-Semibold.otf"; path = "../assets/fonts/Graphik/Graphik-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +235,9 @@
 				70D533623F044DD49040628E /* Graphik-Semibold.woff */,
 				F59015697E1141749166BE6E /* Graphik-Super.otf */,
 				3B744823680941EA839A240F /* Graphik-Thin.otf */,
+				70F29626F0F542DB95FB9954 /* Graphik-Medium.otf */,
+				E6FE225CDB74469AA7C41BCA /* Graphik-Regular.otf */,
+				8DC0A6F2BFA44FC9987EDE9C /* Graphik-Semibold.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -387,6 +396,9 @@
 				92E780DDE60248FE803C26D8 /* Graphik-Semibold.woff in Resources */,
 				8F1AA6717D924FC6932D25C1 /* Graphik-Super.otf in Resources */,
 				3D0F7554215E48E78A7D3FC7 /* Graphik-Thin.otf in Resources */,
+				C0DA81424C834393B0B73A2A /* Graphik-Medium.otf in Resources */,
+				02DEB148E4D142C1A9FADFC6 /* Graphik-Regular.otf in Resources */,
+				9E121F8DD43548A58DC56CED /* Graphik-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

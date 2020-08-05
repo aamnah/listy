@@ -64,6 +64,9 @@
 		<string>Graphik-Semibold.woff</string>
 		<string>Graphik-Super.otf</string>
 		<string>Graphik-Thin.otf</string>
+		<string>Graphik-Medium.otf</string>
+		<string>Graphik-Regular.otf</string>
+		<string>Graphik-Semibold.otf</string>
 	</array>
 </dict>
 </plist>
