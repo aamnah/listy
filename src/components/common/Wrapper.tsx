@@ -9,7 +9,7 @@ interface Props {
   style?: {}
 }
 
-export default function Wrapper({ children, style, ...rest }: Props) {
+export function Wrapper({ children, style, ...rest }: Props) {
   return (
     <StyledView style={style} {...rest}>
       {children}

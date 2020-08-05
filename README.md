@@ -11,3 +11,5 @@ If you run `react-native run-adnroid` first and then `react-native start`, expec
 [Design on Figma](https://www.figma.com/file/uIrb5576AF1TQpQq7UrslZ/Listy?node-id=0%3A1)
 
 https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets
+
+- [React Data Fetching with Hooks using SWR](https://www.youtube.com/watch?v=oWVW8IqpQ-A)

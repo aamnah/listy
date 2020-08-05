@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react'
 
-import { sampleData } from 'sample-data.ts'
+import { sampleData } from 'sample-data'
 
 const ListsContext = createContext(sampleData.lists)
 ListsContext.displayName = 'ListsContext'
