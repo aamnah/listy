@@ -1,24 +1,30 @@
 import 'react-native-gesture-handler'
-import React from 'react'
+import React, { createContext } from 'react'
 
 import { NavigationContainer } from '@react-navigation/native'
-import { StatusBar, ScrollView } from 'react-native'
+import { createStackNavigator } from '@react-navigation/stack'
+import { StatusBar } from 'react-native'
 
-import Wrapper from 'components/common/Wrapper'
-import Lists from 'components/Lists'
-import Tags from 'components/Tags'
-import { data } from 'sample-data.ts'
+import HomeScreen from 'screens/HomeScreen'
+import ListScreen from 'screens/ListScreen'
+
+const Stack = createStackNavigator()
+
+const NavigationContext = createContext({})
+NavigationContext.displayName = 'NavigationContext'
 
 const App = () => {
   return (
     <NavigationContainer>
       <StatusBar barStyle="dark-content" />
-      <ScrollView>
-        <Wrapper>
-          <Lists data={data.lists} />
-          <Tags data={data.tags} />
-        </Wrapper>
-      </ScrollView>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ title: 'Listy' }}
+        />
+        <Stack.Screen name="List" component={ListScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
   )
 }

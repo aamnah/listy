@@ -10,6 +10,7 @@ module.exports = {
           src: './src',
           tests: ['./tests/'],
           components: './src/components',
+          screens: './src/screens',
         },
       },
     ],
